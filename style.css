@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --main-color:#5C2FC2;
+    --orange:#DC5F00;
+    --white:#fff;
+    --light-color:#666;
+    --black:#000;
+}
+*{
+    font-family: 'Poppins',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    transition: all .3s linear;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-margin-top: 7rem;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;justify-content: space-between;
+    padding: 1rem 7%;
+    background-color: var(--white);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+.header .logo{
+    font-size: 2.5rem;
+    columns: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header .logo span{
+    color: var(--orange);
+}
+.header .navbar a{
+    font-size: 1.3rem;
+    color: #333;
+    text-transform: capitalize;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.header .navbar a:hover{
+    color: var(--orange);
+}
+.header .navbar a.btn{
+    background-color: var(--main-color);
+    color: var(--white);
+    padding:  1.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.header .navbar  a.btn:hover {
+    box-shadow: .1rem .3rem .6rem #333 ;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 2rem;
+    position: relative;
+
+}
+
+img.google{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    box-shadow: .1rem .5rem 1rem #999;
+}
+img.linkedin{
+ 
+    bottom: 20%;
+    right: 15%;
+    position:absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: .1rem .5rem 1rem #999;
+
+}
+img.twitter{
+ 
+    bottom: 25%;
+    left: 15%;
+    position:absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: .1rem .5rem 1rem #999;
+
+}
+
+img.amazon{
+ 
+    top: 25%;
+    right: 15%;
+    position:absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: .1rem .5rem 1rem #999;
+
+}
+
+img.figma{
+ 
+    bottom: 6%;
+    right: 50%;
+    position:absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: .1rem .5rem 1rem #999;
+
+}
+img.indeed{
+    top: 13%;
+    left: 50%;
+    position:absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: .1rem .5rem 1rem #999;
+
+}
+
+.home .head{
+    color: var(--orange);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    background-color: #FFE0B5;
+    border-radius: 3REM;
+}
+
+.home h1{
+    font-size: 5rem;
+    color: var(--black);
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+
+.home h1 span{
+    color: var(--main-color);
+}
+
+
+
+.home p{
+    font-size: 1.2rem;
+    color: #999;
+    line-height: 1.5;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+.home .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.home .flex .btn{
+    color:var(--white);
+    background-color: var(--main-color);
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+
+
+}
+
+.home .flex .btn:hover{
+    scale: 1.2;
+    box-shadow: .1rem .5rem 1rem #333;
+} 
+
+
+.home .flex .video{
+    color: var(--black);
+    font-size: 1.4rem;
+
+}
+
+.home .flex .video i{
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--main-color);
+    padding: 1.5rem;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+
+.home .flex .video:hover{
+    color: var(--main-color);
+    text-decoration: underline;
+}
