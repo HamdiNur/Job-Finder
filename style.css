@@ -354,12 +354,12 @@ img.indeed{
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     padding: 5rem 5%;
 }
 
 .jobs h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--black);
     text-transform: capitalize;
 }
@@ -370,26 +370,112 @@ img.indeed{
     color: var(--main-color);
 }
 
+.jobs p{
+    font-size: 1.1rem;
+    color: var(--light-color);
+    text-transform: lowercase;
+    line-height: 1.5;
+}
+
+.jobs .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+.jobs .box-container .box{
+    box-shadow: .1rem .3rem .6rem #999;
+    border-radius: .5rem;
+    width: 30rem;
+    padding: 1rem;
+
+}
+
+.jobs .box-container .box .flex{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.jobs .box-container .box .flex img{
+    height: 4rem;
+    width:4rem ;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.jobs .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
 
 
 
+.jobs .box-container .box .flex .text h3{
+    font-style: 1.5rem;
+    color: #333;
+    text-transform: capitalize;
 
 
+}
+.jobs .box-container .box .flex .text span{
+    font-style: 1.1rem;
+    color: #666;
+    text-transform: uppercase;
+    
+
+}
+
+.jobs .box-container .box p{
+    font-size: 1.1rem;
+    color: var(--light-color);
+    text-transform: lowercase;
+    text-align: left;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
 
 
+.jobs .box-container .box .flex-btn{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.jobs .box-container .box .flex-btn .btn{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    padding: .5rem 1rem;
+    font-weight: 500;
+}
+
+.jobs .box-container .box .flex-btn .btn.blue{
+    color: blue;
+    background-color: lightblue;
 
 
+}
+.jobs .box-container .box .flex-btn .btn.orange{
+    color:var(--orange);
+    background-color: lightgoldenrodyellow;
+
+}
+
+.jobs .box-container .box .flex-btn .btn.green{
+    color:green;
+    background-color: lightgreen;
+    
 
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
