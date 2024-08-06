@@ -39,6 +39,13 @@ html{
     z-index: 1000;
 
 }
+.header .fa-bars-staggered,
+.header .fa-circle-xmark{
+    font-size: 2rem;
+    color: var(--main-color);
+    cursor: pointer;
+    display: none;
+}
 .header .logo{
     font-size: 2.5rem;
     columns: var(--main-color);
@@ -224,4 +231,98 @@ img.indeed{
 .home .flex .video:hover{
     color: var(--main-color);
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:990px){
+    html{
+        font-size: 55%;
+    }
+
+
+}
+
+@media(max-width:768px){
+    .header .navbar{
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        right: 0;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        text-align: center;
+        background-color: var(--white);
+        border-bottom: .1rem solid #EEEEEE;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+     .header .navbar.show{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+     }
+    .header .fa-bars-staggered{
+        display: inline-block;
+    }
+    .header .fa-bars-staggered.hide{
+        display: none;
+    }
+    .header .fa-circle-xmark.show{
+        display: inline-block;
+    }
+    .home h1{
+        font-size:4rem;
+    }
+       
+    
+    .home p{
+        width: 100%;
+
+    }
+    img.google{
+    
+        top: 20%;
+        left: 5%;}
+
+        img.twitter{
+    
+            bottom: 10%;
+            left: 3%;
+        }
+        img.linkedin{
+    
+            bottom: 10%;
+            right: 3%
+        }
+        img.amazon{
+    
+            top: 10%;
+            right: 3%;}
 }
