@@ -16,12 +16,13 @@
     border: none;
     outline: none;
     transition: all .3s linear;
+ 
 }
 
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    /* overflow: hidden; */
     scroll-behavior: smooth;
     scroll-margin-top: 7rem;
 }
@@ -234,6 +235,204 @@ img.indeed{
 }
 
 
+/* ABOUT BEGINS HERE */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    min-height: 100vh;
+    background: url(images/bg.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.about h1{
+    font-size: 3rem;
+    color: var(--black);
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+
+}
+
+.about h1 span{
+    color: var(--main-color);
+}
+.about p{
+    font-size: 1.1rem;
+    color: var(--light-color);
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.about .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.about .box-container .box{
+    background-color: var(--white);
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: .1rem .5rem 1rem #999;
+}
+.about .box-container .box i{
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.about .box-container .box i.fa-user{
+    color: var(--orange);
+    background-color: antiquewhite;
+
+
+}
+.about .box-container .box i.fa-magnifying-glass{
+    color:purple;
+    background-color: plum;
+
+
+}
+.about .box-container .box i.fa-file-arrow-up{
+    color: green;
+    background-color: lightgreen;
+
+
+}
+.about .box-container .box i.fa-briefcase{
+    color:goldenrod;
+    background-color: rgb(255, 255, 150);
+
+
+}
+
+
+
+.about .box-container .box h3{
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.about .box-container .box p{
+    color: #999;
+    line-height: 2;
+    text-align: left;
+}
+
+
+.about .box-container .box.top{
+    margin-top: 5rem;
+}
+
+/* Job section 3 */
+
+.jobs{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 5rem 5%;
+}
+
+.jobs h1{
+    font-size: 3rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
+
+
+
+.jobs h1 span{
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -306,6 +505,13 @@ img.indeed{
         width: 100%;
 
     }
+   
+}
+@media(max-width:400px){
+
+    html{
+        font-size: 50%;
+    }
     img.google{
     
         top: 20%;
@@ -324,5 +530,18 @@ img.indeed{
         img.amazon{
     
             top: 10%;
-            right: 3%;}
+            right: 3%;
+        }
+
+        .about  h1{
+            text-align: center;
+            width: 90%;
+        }
+
+        .about .box-container .box.top{
+            margin-top: 0;
+        }
+        
+        
+
 }
