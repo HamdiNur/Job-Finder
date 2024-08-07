@@ -569,6 +569,243 @@ img.indeed{
 
 }
 
+.client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 3rem 5%;
+    background-color: var(--main-color);
+}
+
+
+.client h1{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.client h1 span{
+    color: var(--main-color);
+    background-color: var(--white);
+}
+.client p{
+    font-size: 1.2rem;
+    color: #EEEE;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+.client .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.client .box-container .box .flex img{
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .2rem solid var(--main-color);
+    box-shadow: .1rem .5rem 1rem #EEEE;
+
+}
+.client .box-container .box{
+    background-color: var(--white);
+    border-radius: 15rem;
+    width: 36rem;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    box-shadow: .1rem .5rem 1rem #333;
+
+
+}
+.client .box-container .box:hover{
+    border-radius: 0;
+    cursor: pointer;
+
+}
+.client .box-container .box p{
+    color: #333;
+    font-size: 1.2Irem;
+    width: 100%;
+
+}
+.client .box-container .box .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.client .box-container .box .flex h3{
+    font-size: 1.5rem;
+    color: var(--black);
+    text-transform: capitalize;
+
+
+}
+.client .box-container .box .flex span{
+    font-size: 1.2rem;
+    color: var(--main-color);
+    text-transform: capitalize;
+
+
+}
+.footer{
+    padding: 1rem;
+
+}
+.footer .box-container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 3rem;
+
+}
+.footer .box-container .box{
+    display: grid;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.footer .box-container .box h3{
+    font-size: 1.5rem;
+    color: var(--black);
+    text-transform: uppercase;
+
+}
+
+
+.footer .box-container .box  p{
+    font-size: 1.1rem;
+    color: #666;
+    text-transform: capitalize;
+    width: 40rem;
+    line-height: 2;
+}
+.footer .box-container .box a{
+    font-size: 1.4rem;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box a i{
+    color: var(--main-color);
+    margin-right: .5rem;
+}
+.footer .box-container .box a:hover i{
+    margin-right: 1rem;
+}
+
+.footer .credit{
+    background-color: var(--main-color);
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .credit p{
+    color: #EEEE;
+    font-size: 1.3rem;
+
+}
+.footer .credit p i{
+    color: var(--black);
+    font-size: 1.2rem;
+}
+.footer .credit p span{
+    text-decoration: underline;
+}
+
+.footer .credit .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+
+.footer .credit .icons i{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: var(--white);
+    color: var(--main-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.footer .credit .icons i:hover{
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -735,6 +972,14 @@ img.indeed{
         .jobs .box-container .box{
             width: 35rem;
 
+        }
+        .footer .credit{
+
+            display: grid;
+            align-items: center;
+
+            justify-content: center;
+            gap: 1rem;
         }
 
         
