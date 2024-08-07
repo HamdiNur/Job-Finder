@@ -390,7 +390,11 @@ img.indeed{
     border-radius: .5rem;
     width: 30rem;
     padding: 1rem;
+    cursor: pointer;
 
+}
+.jobs .box-container .box:hover{
+    background-color: var(--main-color);
 }
 
 .jobs .box-container .box .flex{
@@ -424,6 +428,13 @@ img.indeed{
     text-transform: capitalize;
 
 
+}
+.jobs .box-container .box:hover .flex .text h3{
+    color: var(--black);
+}
+.jobs .box-container .box:hover p,
+.jobs .box-container .box:hover .flex .text span{
+    color: #EEEE;
 }
 .jobs .box-container .box .flex .text span{
     font-style: 1.1rem;
@@ -476,6 +487,19 @@ img.indeed{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -623,10 +647,27 @@ img.indeed{
             text-align: center;
             width: 90%;
         }
+        .about .box-container .box{
+            width: 35rem;
+        }
 
         .about .box-container .box.top{
             margin-top: 0;
         }
+        .jobs{
+         
+          
+            padding: 5rem 0;
+        }
+        .jobs h1{
+            text-align: center;
+        }
+        .jobs .box-container .box{
+            width: 35rem;
+
+        }
+
+        
         
         
 
