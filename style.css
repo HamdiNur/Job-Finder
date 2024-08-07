@@ -388,7 +388,7 @@ img.indeed{
 .jobs .box-container .box{
     box-shadow: .1rem .3rem .6rem #999;
     border-radius: .5rem;
-    width: 30rem;
+    width: 29rem;
     padding: 1rem;
     cursor: pointer;
 
@@ -488,16 +488,86 @@ img.indeed{
 
 }
 
+/* Services Section */
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 3rem 5%;
+}
 
 
+.services h1{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+.services h1 span{
+    color: var(--main-color);
+}
+
+.services p{
+    font-size: 1.1rem;
+
+    color: #999;
+    text-transform: lowercase;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+
+}
+.services .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.services .box-container .box{
+    width: 32rem;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+}
+
+.services .box-container .box img{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+
+}
+.services .box-container .box .content{
+    border-left: .4rem solid var(--main-color);
+    padding:  0 1rem;
+ 
+    background-color: #e0d2ff;
 
 
+}
+.services .box-container .box .content h3{
+    color: var(--main-color);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.services .box-container .box .content p{
+    width: 100%;
+    color: var(--light-color);
+    text-align: left;
+}
 
+.services .box-container .box .image{
+    overflow: hidden;
+    width: 100%;
+}
+.services .box-container .box:hover img{
+    scale: 1.2;
+    cursor: pointer;
 
-
-
-
-
+}
 
 
 
